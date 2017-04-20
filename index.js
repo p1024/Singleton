@@ -22,6 +22,7 @@ class SingleTon {
 	 */
 	ClearInstance() {
 		SingleTon.instance = null;
+		SingleTon.created = false;
 	}
 
 
